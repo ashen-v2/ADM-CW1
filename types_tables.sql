@@ -1,8 +1,11 @@
-DROP TABLE loan_tab;
-DROP TABLE member_tab;
-DROP TABLE book_tab;
-DROP TABLE journal_tab;
-DROP TABLE publication_tab;
+--====================================================================================================
+-- optionally Uncomment drop tables if they already exist to avoid errors when running this script
+--======================================================================================================
+-- DROP TABLE loan_tab;
+-- DROP TABLE member_tab;
+-- DROP TABLE book_tab;
+-- DROP TABLE journal_tab;
+-- DROP TABLE publication_tab;
 
 CREATE TABLE IF NOT EXISTS publication_tab (
     publication_id NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY, -- this tells oracle to auto generate unique id for each publication
