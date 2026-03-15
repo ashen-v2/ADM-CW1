@@ -1,4 +1,4 @@
-# Advanced Data Modeling — PL/SQL Scripts
+# Advanced Data Modeling — Oracle PL/SQL Scripts
 
 This directory contains PL/SQL type, table, view and data scripts used for the coursework examples (object types, tables, inheritance-like object behaviour, and simple queries).
 
@@ -27,7 +27,7 @@ Prerequisites
 
 Quick run examples (SQL*Plus / SQLcl)
 
-Run the scripts in the recommended order, for example:
+Run the scripts in the recommended order
 
 ```sql
 "types_attributes.sql"
@@ -39,9 +39,4 @@ Run the scripts in the recommended order, for example:
 "search_loan.sql"
 ```
 
-To tear down the objects created by these scripts:
-
-```sh
-sqlplus username/password@DBSERVICE @"reset.sql"
-```
 
